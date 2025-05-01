@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+/go-carrot-go/
+  |- index.html
+  |- game.js
+  |- /img/
+     |- player.png
+     |- rabbit.png
+     |- carrot.png
+     |- potato.png
+     |- rotten_potato.png
+     |- tile.png
+<head>
+  <meta charset="UTF-8" />
+  <title>Go Carrot Go</title>
+  <style>
+    canvas {
+      background: #eef4d7;
+      display: block;
+      margin: 20px auto;
+      border: 4px solid #333;
+    }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Go Carrot Go 🥕</h1>
+  <canvas id="gameCanvas" width="500" height="500"></canvas>
+  <p id="score">Score: 0</p>
+  <script src="game.js"></script>
+</body>
+</html>
